@@ -117,6 +117,7 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
+    position: relative;
 }
 .cntnt h2{
     font-size:40px;
@@ -132,8 +133,9 @@ body{
     border: 1px solid white;
 }
 .cntnt{
-    padding-top:100px;
-    margin-left:100px;
+    position: absolute;
+    top:70px;
+    left:70px;
 }
 .first-content h3{
     font-size: 45px;
